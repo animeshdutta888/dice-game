@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+        <title>7 up or 7 down Game</title>
+    </head>
+
+    <body>
+      <p style="text-align:center;font-size:150%;top:25px;"";>Winning score is 5!Good luck.</p>
+
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">0</div>
+
+            </div>
+
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">0</div>
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <div class="cont">
+           <input id="radio1"  type="radio" name="select" value="7-down" > 7-DOWN<br>
+           <input id="radio2"  type="radio" name="select" value="7-ex" > 7-EXACT   <br>
+           <input id="radio3"  type="radio" name="select" value="7-up" > 7-UP   <br>
+         </div>
+           <img src="dice1-3.png" alt="Dice" class="dice1">
+           <img src="dice2-4.png" alt="Dice" class="dice2">
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
